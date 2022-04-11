@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" 
+    href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 20px;
+            font-size: 30px;
+        }
+        .box-1 {
+            background-color: brown;
+            border: 0 solid;
+            width: 40em;
+            padding: 5px;
+            
+        }
+        .box-2{
+            padding: 5px;
+            border: 0 solid;
+            background-color: aqua;
+            width: 40em;
+        }
+        #box-3{
+            border: 2px solid red;
+            background-color: blue;
+        }
+        #q{
+            color: blueviolet;
+            background-color: brown;
+        }
+        .box-3{
+            margin: 5px;
+            background-color: blue;
+            color: aliceblue;
+            display: inline-block;
+            
+        }
+        #r{
+            color: red;
+        }
+        #range{
+            color: red;
+            background-color: darkgreen;
+        }
+        .fa{
+           overflow: auto;
+           zoom: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="box-1">
+        <input  type="button" value="box-1">
+    </div>
+    <div class="box-2">
+        <input  type="text" value="box-2">
+        <input type="button" value="box-3" id="box-3">
+        <input type="checkbox" name="tic" id="t">
+        <input type="datetime-local" name="date" id="q">
+    </div>
+    <div class="box-3">
+        <input type="date" name="time" id="time">
+       <input type="color" name="color" id="c">
+       <input type="file" name="file" id="f">
+       <input type="number" name="number" id="n" value="2">
+       email:
+       <input type="email" name="" id="" placeholder="youremail@gmail.com">
+       images: 
+       <input type="image" src="images.jpg" alt="">
+        <input type="password" name="pw" id="pw">
+        <input type="radio" name="radio" id="r">
+        <div class="input_icon">
+            <i class="fa fa-user"></i>
+            <input type="range" name="range" id="t">
+        </div>
+       
+        <input type="reset" value="reset">
+        <label for="user"> user:</label>
+        <i class="fa fa-user"></i>
+        <input type="search" name="" id="search"  aria-hidden="true" >
+        <i class="fa fa-user"></i>
+    </div>
+</div>
+
+    
+</body>
+</html>
